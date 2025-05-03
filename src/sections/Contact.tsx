@@ -87,7 +87,7 @@ const Contact: React.FC = () => {
                 </h4>
                 <div className="flex gap-4">
                   <a
-                    href="#"
+                    href="https://github.com/GOLIBALASAIRAM"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="w-10 h-10 rounded-full bg-gray-100 dark:bg-gray-800 flex items-center justify-center text-gray-700 dark:text-gray-300 hover:bg-primary-indigo hover:text-white transition-colors"
@@ -98,7 +98,7 @@ const Contact: React.FC = () => {
                     </svg>
                   </a>
                   <a
-                    href="#"
+                    href="https://www.linkedin.com/in/sairam-goli/"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="w-10 h-10 rounded-full bg-gray-100 dark:bg-gray-800 flex items-center justify-center text-gray-700 dark:text-gray-300 hover:bg-[#0077B5] hover:text-white transition-colors"

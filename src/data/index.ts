@@ -15,30 +15,37 @@ export const skills: Skill[] = [
   { id: 8, name: 'Streamlit', category: 'frameworks', level: 5 },
   
   // ML/AI Tools
-  { id: 9, name: 'TensorFlow', category: 'ml', level: 4 },
-  { id: 10, name: 'Scikit-learn', category: 'ml', level: 5 },
-  { id: 11, name: 'Pandas', category: 'ml', level: 5 },
-  
-  // Web Dev
-  { id: 12, name: 'HTML', category: 'webdev', level: 5 },
-  { id: 13, name: 'CSS', category: 'webdev', level: 4 },
-  { id: 14, name: 'JavaScript', category: 'webdev', level: 4 },
-  { id: 15, name: 'REST APIs', category: 'webdev', level: 4 },
-  
-  // Databases
-  { id: 16, name: 'MongoDB', category: 'database', level: 4 },
-  { id: 17, name: 'SQL', category: 'database', level: 4 },
-  
-  // Tools
-  { id: 18, name: 'Git', category: 'tools', level: 5 },
-  { id: 19, name: 'GitHub', category: 'tools', level: 5 },
-  { id: 20, name: 'Firebase', category: 'tools', level: 3 },
-  
-  // Concepts
-  { id: 21, name: 'Time Series', category: 'concepts', level: 4 },
-  { id: 22, name: 'NLP', category: 'concepts', level: 4 },
-  { id: 23, name: 'Model Evaluation', category: 'concepts', level: 5 },
-  { id: 24, name: 'Feature Engineering', category: 'concepts', level: 4 },
+{ id: 9, name: 'TensorFlow', category: 'ml', level: 4 },
+{ id: 10, name: 'Scikit-learn', category: 'ml', level: 5 },
+{ id: 11, name: 'Pandas', category: 'ml', level: 5 },
+{ id: 25, name: 'NLP', category: 'ml', level: 4 },
+{ id: 26, name: 'Deep Learning', category: 'ml', level: 4 },
+{ id: 27, name: 'LLM\'s', category: 'ml', level: 4 },
+
+// Web Dev
+{ id: 12, name: 'HTML', category: 'webdev', level: 5 },
+{ id: 13, name: 'CSS', category: 'webdev', level: 4 },
+{ id: 14, name: 'JavaScript', category: 'webdev', level: 4 },
+{ id: 15, name: 'REST APIs', category: 'webdev', level: 4 },
+{ id: 28, name: 'React', category: 'webdev', level: 5 },
+{ id: 29, name: 'Node.js', category: 'webdev', level: 4 },
+{ id: 30, name: 'Express.js', category: 'webdev', level: 4 },
+
+// Databases
+{ id: 16, name: 'MongoDB', category: 'database', level: 4 },
+{ id: 17, name: 'SQL', category: 'database', level: 4 },
+
+// Tools
+{ id: 18, name: 'Git', category: 'tools', level: 5 },
+{ id: 19, name: 'GitHub', category: 'tools', level: 5 },
+{ id: 20, name: 'Firebase', category: 'tools', level: 3 },
+
+// Concepts
+{ id: 21, name: 'Time Series', category: 'concepts', level: 4 },
+{ id: 22, name: 'NLP', category: 'concepts', level: 4 },
+{ id: 23, name: 'Model Evaluation', category: 'concepts', level: 5 },
+{ id: 24, name: 'Feature Engineering', category: 'concepts', level: 4 },
+
 ];
 
 export const projects: Project[] = [
@@ -54,7 +61,7 @@ export const projects: Project[] = [
     title: 'Retail RFM Segmentation',
     description: 'Behavioral segmentation using Recency, Frequency, Monetary model.',
     techStack: ['Python', 'Scikit-learn', 'Pandas'],
-    link: '#',
+    link: 'https://github.com/GOLIBALASAIRAM/Retail-analysis-',
   },
   {
     id: 3,
@@ -65,51 +72,45 @@ export const projects: Project[] = [
   },
   {
     id: 4,
-    title: 'Secure Messaging App',
-    description: 'End-to-End Encrypted messaging application using Python cryptography.',
-    techStack: ['Python', 'Cryptography', 'Tkinter'],
-    link: '#',
+    title: 'Railway_complaint_classifier',
+    description: 'Railway Complaint Classifier using ML and Multi-Modal Input Automation.',
+    techStack: ['Python', 'Machine Learning', 'Mern Stack'],
+    link: 'https://github.com/GOLIBALASAIRAM/Railway_complaint_classifier',
   },
   {
     id: 5,
-    title: 'Library Management System',
-    description: 'OOAD project for managing library resources and operations.',
-    techStack: ['C++', 'Object-Oriented Design'],
-    link: '#',
+    title: 'Technical-Term-Simplifier',
+    description: 'MERN + ML app that simplifies jargon and aids interactive term learning.',
+    techStack: ['Mern', 'Machine Learning'],
+    link: 'https://github.com/GOLIBALASAIRAM/Technical-Term-Simplifier',
   },
   {
     id: 6,
-    title: "Raju's Organic Farming (ROF)",
-    description: 'Sustainability-focused application for organic farming.',
-    techStack: ['JavaScript', 'Django', 'React'],
-    link: '#',
+    title: "Restro-Fetch",
+    description: 'A restaurant search app with filters for location, cuisine, price, and image input.',
+    techStack: ['SQL', 'Flask', 'React'],
+    link: 'https://github.com/GOLIBALASAIRAM/Restro-Fetch',
   },
 ];
 
 export const experiences: Experience[] = [
   {
     id: 1,
-    role: 'Junior Intern',
+    role: 'Project Intern',
     company: 'Namoona 3D Labs',
     duration: 'Dec 2024 – Jan 2025',
     description: 'Worked on Generative AI for B-rep CAD modeling',
   },
   {
     id: 2,
-    role: 'Project Intern',
+    role: 'Machine Learning Intern',
     company: 'Infosys Springboard',
     duration: 'Oct 2024 – Dec 2024',
     description: 'Breast Cancer Detection using AdaBoost',
   },
+  
   {
     id: 3,
-    role: 'Encryption Developer',
-    company: 'AICTE + Palo Alto',
-    duration: 'During Internship',
-    description: 'Secure Messaging App',
-  },
-  {
-    id: 4,
     role: 'Virtual Intern',
     company: 'Salesforce (SmartInternz)',
     duration: '2024',
