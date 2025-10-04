@@ -51,7 +51,7 @@ const Hero: React.FC = () => {
               <Button href="#contact" variant="outline">
                 Get in Touch
               </Button>
-              <Button href="https://drive.google.com/file/d/1SX6fPzHNanQHmU-nqiDLr-ep7ZJ9247O/view?usp=sharing" variant="secondary">
+              <Button href="https://drive.google.com/file/d/1TGiChb7DMAsT4kNO-29_JJ6GymjNCl-K/view?usp=drive_link" variant="secondary">
                 View Resume
               </Button>
             </motion.div>
